@@ -1,0 +1,16 @@
+[manifest]
+id = "translation_spanish"
+version = "1.0.0"
+display_name = "Spanish Translation"
+description = "Spanish Translation of DK64"
+short_description = "Spanish Translation of DK64"
+authors = [ "Ballaam" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.2"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "translation_spanish"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
